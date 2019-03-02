@@ -2313,6 +2313,6 @@ i {
 
 @media (max-width: 991px) {
   .site-footer__social {
-    display: none;
+    display: false;
   }
 }

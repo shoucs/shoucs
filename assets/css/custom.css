@@ -16,3 +16,129 @@
   position: absolute;
   background-color: rgba(30, 31, 37, 0.45);
 }
+
+#vid {
+  position:fixed;
+  min-width:135%;
+  min-height:110%;
+	opacity: 1;
+  width:auto;
+  height:auto;
+  z-index:-100;
+  transform:translateX(-50%) translateY(-50%);
+  background-size:cover;
+  overflow:hidden;
+	-webkit-filter:blur(15px);
+  -moz-filter:blur(15px);
+  -o-filter:blur(15px);
+  -ms-filter:blur(15px);
+  filter:blur(15px);
+  background:rgba(7,9,21,.5);
+  filter:brightness(62.5%);
+  top:50%;
+  left:50%
+}
+
+/*Animations for <p>*/
+@-webkit-keyframes slide_in {
+  0% {margin-left: -200px; opacity: 0};
+  100% {margin-left: 0px; opacity: 1};
+} @-moz-keyframes slide_in {
+  0% {margin-left: -200px; opacity: 0};
+  100% {margin-left: 0px; opacity: 1};
+} @-o-keyframes slide_in {
+  0% {margin-left: -200px; opacity: 0};
+  100% {margin-left: 0px; opacity: 1};
+} @keyframes slide_in {
+  0% {margin-left: -200px; opacity: 0};
+  100% {margin-left: 0px; opacity: 1};
+}
+
+@font-face {
+  font-family: "VOXI-Semibold";
+  src: url("fonts/VOXI-Semibold.eot"); /* IE9 Compat Modes */
+  src: url("fonts/VOXI-Semiboldd41d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/VOXI-Semibold.otf") format("opentype"), /* Open Type Font */
+    url("fonts/VOXI-Semibold.svg") format("svg"), /* Legacy iOS */
+    url("fonts/VOXI-Semibold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/VOXI-Semibold.woff") format("woff"), /* Modern Browsers */
+    url("fonts/VOXI-Semibold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VOXI-Regular";
+  src: url("fonts/VOXI-Regular.eot"); /* IE9 Compat Modes */
+  src: url("fonts/VOXI-Regulard41d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/VOXI-Regular.otf") format("opentype"), /* Open Type Font */
+    url("fonts/VOXI-Regular.svg") format("svg"), /* Legacy iOS */
+    url("fonts/VOXI-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/VOXI-Regular.woff") format("woff"), /* Modern Browsers */
+    url("fonts/VOXI-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VOXI-Bold";
+  src: url("fonts/VOXI-Bold.eot"); /* IE9 Compat Modes */
+  src: url("fonts/VOXI-Boldd41d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/VOXI-Bold.otf") format("opentype"), /* Open Type Font */
+    url("fonts/VOXI-Bold.svg") format("svg"), /* Legacy iOS */
+    url("fonts/VOXI-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/VOXI-Bold.woff") format("woff"), /* Modern Browsers */
+    url("fonts/VOXI-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html {
+	overflow:-moz-scrollbars-vertical;
+	overflow-x:hidden;
+	overflow:-moz-scrollbars-vertical;
+	overflow-y:hidden;
+	background-color: #191714;
+}
+
+p{
+	letter-spacing: 1px;
+	font-family: 'VOXI-Semibold';
+	font-size: 35px;
+	color: white;
+}
+
+#center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+#vid {
+  position:fixed;
+  min-width:135%;
+  min-height:110%;
+	opacity: 1;
+  width:auto;
+  height:auto;
+  z-index:-100;
+  transform:translateX(-50%) translateY(-50%);
+  background-size:cover;
+  overflow:hidden;
+	-webkit-filter:blur(15px);
+  -moz-filter:blur(15px);
+  -o-filter:blur(15px);
+  -ms-filter:blur(15px);
+  filter:blur(15px);
+  background:rgba(7,9,21,.5);
+  filter:brightness(62.5%);
+  top:50%;
+  left:50%
+}

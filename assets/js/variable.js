@@ -7,7 +7,7 @@
 // --------------------------------------------------
 //
 
-var _countdown =                        true; // [true, false] - countdown toggle
+var _countdown =                        false; // [true, false] - countdown toggle
 var _countdown_date =                   [2016, 12, 1]; // 2016[year] - 12[month] - 1[day]
 var _countdown_utc =                    false; // [true, false] - utc time
 
@@ -16,7 +16,7 @@ var _countdown_utc =                    false; // [true, false] - utc time
 // --------------------------------------------------
 //
 
-var _site_border =                      true; // [true, false] - border toggle
+var _site_border =                      false; // [true, false] - border toggle
 
 //
 // background
